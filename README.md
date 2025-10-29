@@ -25,7 +25,9 @@
 * **Specialist on Codeforces (1431+ rating).**
 * Solved **800+ problems** across LeetCode, Codeforces, CodeChef & HackerRank.
 * Ranked in **top 0.1% (out of 75k)** for the **Amazon ML Summer School** program.
+* **National Semifinalist** in Flipkart Grid 7.0.
 * Awarded **Merit-cum-Means Scholarship** for being among the **top 5 meritorious students** at IIIT Gwalior.
+
 
 📈 **What I’m Looking For**
 I’m seeking **internship and learning opportunities** where I can apply my skills in **software development, system design, and machine learning** to solve impactful problems.
