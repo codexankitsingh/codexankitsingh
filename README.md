@@ -90,6 +90,31 @@ analytics and operational workflows.
 ---
 
 ## 🛠️ Projects
+### 🗨️ [ConvoCore](https://github.com/codexankitsingh/ConvoCore) — Production-Grade Real-Time Chat Backend
+
+> *Apr 2026 – May 2026*
+
+A fully production-ready, scalable **multi-room chat backend** built on **AdonisJS v6 + TypeScript**,
+designed with clean architecture, real-time communication, and enterprise-grade security.
+
+- Architected a **layered REST API** with full **CRUD** for conversations & messages, enforcing
+  strict **participant-scoped authorization** and **JWT-based auth** with access/refresh token rotation
+- Implemented **real-time message delivery** to all conversation participants using
+  **Server-Sent Events (SSE)** via `@adonisjs/transmit` with Redis-backed pub/sub
+- Built **WhatsApp-style message replies**, **emoji reactions**, and **soft-delete**
+  with full audit trail preserved in PostgreSQL
+- Engineered **anonymous guest sessions** with isolated permission handling — no registration required
+- Designed a **Repository Pattern** service layer with full **IoC container** binding via AdonisJS DI,
+  ensuring 100% testable, SOLID-compliant code
+- Delivered **52/52 integration tests** covering auth, conversations, messages, notifications,
+  and security using **AdonisJS Japa test runner**
+- Containerized with **multi-stage Docker builds**, orchestrated via **Docker Compose**
+  with Nginx reverse proxy, SSL termination, Redis, and PostgreSQL
+- Configured **GitHub Actions CI/CD** pipeline — auto test → build → Docker push →
+  zero-downtime SSH deploy on every push to `main`
+
+`AdonisJS v6` `TypeScript` `PostgreSQL` `Redis` `SSE` `JWT` `Docker` `Nginx` `GitHub Actions` `Japa` `Lucid ORM` `VineJS` `SOLID Design`
+
 
 ### ⚡ [SaleStream](https://github.com/codexankitsingh/Sale-ETL) — Cloud-Native ELT Pipeline
 > *Jan 2026 – Feb 2026 | Associated with Rakuten India*
@@ -144,7 +169,7 @@ charging cost, battery degradation, and grid stress.
 - AI-driven personalization engine for automated professional outreach
 - Built with modern backend stack focused on reliability and scale
 
-`Python` `FastAPI` `AI/LLM` `Automation`
+`Python` `FastAPI` `AI/LLM` `Automation` `OAuth 2.0` `Gemini API`
 
 ---
 
